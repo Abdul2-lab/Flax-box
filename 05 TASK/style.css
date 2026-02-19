@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f6ff, #c8c4ff);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    min-height: 100vh;
+}
+
+/* LEFT SIDE */
+
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.2;
+}
+
+.subtitle {
+    margin: 20px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.cta button {
+    background: #5b5df0;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background: #4849d6;
+}
+
+.note {
+    font-size: 13px;
+    color: #333;
+}
+
+.rating {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* RIGHT SIDE */
+
+.right {
+    width: 45%;
+    position: relative;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: absolute;
+}
+
+.large {
+    width: 320px;
+    height: 220px;
+    top: 0;
+    right: 60px;
+}
+
+.small {
+    width: 140px;
+    height: 140px;
+}
+
+.top {
+    top: 40px;
+    left: 0;
+}
+
+.bottom {
+    bottom: -40px;
+    right: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
